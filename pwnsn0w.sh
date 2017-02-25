@@ -1,0 +1,1 @@
+./physmem root /bin/sh -c 'echo pwnd!; echo "blacksn0w made by iH8Ra1n. (http://www.twitter.com/iHateRa1n)"; echo "Copying rootfs files. Hoping SIP-protected files are not written to."; tar -x -f rootfs.tar -C /; cp -R /rootfs/* /; ./nvram boot-args=$(cat .ba); echo "it has sn0wed.";'
